@@ -2,6 +2,9 @@
 开发这个控件库是为了致力于提升android原生控件的一些性能及体验
 
 ![](pic.jpg 'pic')
+
+# 效果
+
 ![](video.webm 'video')
 
 这次添加的顶部图片过度拉伸效果是仿ios的appstore中的图片过度拉伸效果。
