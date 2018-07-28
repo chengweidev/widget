@@ -39,6 +39,9 @@ public class MainActivity extends Activity {
         mRecycleView = findViewById(R.id.recycle);
         mRecycleView.setLayoutManager(new LinearLayoutManager(this));
         mRecycleView.setScrollMode(WeRecycleView.SCROLL_SCALE_HEAD);
+        mRecycleView.setMaxScale(4f);
+        mRecycleView.setSafeHeight(480);
+        mRecycleView.setCloseOffset(50 * mDensity);
         mRecycleView.setOnHeadExpandListener(new WeRecycleView.OnHeadExpandListener() {
             @Override
             public void onExpand(float percent) {
