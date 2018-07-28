@@ -1,4 +1,4 @@
-#widget
+# widget
 开发这个控件库是为了致力于提升android原生控件的一些性能及体验
 
 ![](pic.jpg 'pic')
@@ -13,7 +13,7 @@
 
 
 
-#集成
+#    集成
 需要集成v4和v7两个库，以及这里的效果库
 
     implementation 'com.chw.android:widget:3.0.3'
@@ -21,7 +21,7 @@
     implementation 'com.android.support:recyclerview-v7:27.1.1'
 
     
- #使用
+ #    使用
       
      mRecycleView.setScrollMode(WeRecycleView.SCROLL_SCALE_HEAD);
      mRecycleView.setMaxScale(4f);
