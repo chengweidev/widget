@@ -54,11 +54,6 @@ public class MainActivity extends Activity {
             }
         });
 
-        mRecycleView.setMaxScale(4f);
-        mRecycleView.setSafeHeight(480);
-        mRecycleView.setCloseOffset(50 * mDensity);
-
-
         initAdapter();
 
     }
