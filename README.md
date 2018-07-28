@@ -13,18 +13,21 @@
 
 
 
-#    集成
+# 集成
 需要集成v4和v7两个库，以及这里的效果库
-
+   
+    ~~~Java
     implementation 'com.chw.android:widget:3.0.3'
     implementation 'com.android.support:support-v4:27.1.1'
     implementation 'com.android.support:recyclerview-v7:27.1.1'
-
+    ~~~
     
  #    使用
       
+      ~~
      mRecycleView.setScrollMode(WeRecycleView.SCROLL_SCALE_HEAD);
      mRecycleView.setMaxScale(4f);
      mRecycleView.setSafeHeight(480);
      mRecycleView.setCloseOffset(50 * mDensity);
+     ~~~
      
