@@ -5,7 +5,9 @@
 
 # 效果
 
-![](video.webm 'video')
+# 效果
+
+![image](https://github.com/chengweidev/widget/blob/master/f.gif ) 
 
 这次添加的顶部图片过度拉伸效果是仿ios的appstore中的图片过度拉伸效果。
 
