@@ -6,10 +6,10 @@
 
 这次添加的顶部图片过度拉伸效果是仿ios的appstore中的图片过度拉伸效果。
 
-继承RecycleView，保留RecycleView原本的特性
-根据RecycleView的滚动item时动态调整各item的top位置及head的scale值，不会触发requestLayout。
-处理了head收起展开的各种极端情况，确保head不会只露出半个
-处理了RecycleView的快速抛动情况，确保fling到head时head的位置能正常
+* 继承RecycleView，保留RecycleView原本的特性<br>
+* 根据RecycleView的滚动item时动态调整各item的top位置及head的scale值，不会触发requestLayout。<br>
+* 处理了head收起展开的各种极端情况，确保head不会只露出半个<br>
+* 处理了RecycleView的快速抛动情况，确保fling到head时head的位置能正常<br>
 
 
 
