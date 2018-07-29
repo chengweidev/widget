@@ -1,5 +1,5 @@
 # widget
-（[中文文档](README.md)）
+（[中文文档](README.md)）<br>
 The development of this control library is intended to enhance the performance and experience of Android native controls.
 
 ![](pic.jpg 'pic')
