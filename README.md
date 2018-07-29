@@ -1,23 +1,23 @@
 # widget
-[English document](README_EN.md)<br>
-开发这个控件库是为了致力于提升android原生控件的一些性能及体验
+[中文文档](README_CN.md)<br>
+The development of this control library is intended to enhance the performance and experience of Android native controls.
 
 ![](pic.jpg 'pic')
 
 # 效果
-这次添加的顶部图片过度拉伸效果是仿ios的appstore中的图片过度拉伸效果。
+The overstretched effect of the top picture added is the overstretching effect of the picture imitated by IOS Appstore.
 
 ![image](https://github.com/chengweidev/widget/blob/master/f.gif ) 
 
-* 继承RecycleView，保留RecycleView原本的特性<br>
-* 根据RecycleView的滚动item时动态调整各item的top位置及head的scale值，不触发requestLayout。<br>
-* 处理了head收起展开的各种极端情况，确保head不会只露出半个<br>
-* 处理了RecycleView的快速抛动情况，确保fling到head时head的位置能正常<br>
+* Extend RecycleView, retaining its original features<br>
+* According to the rolling item of RecycleView, it dynamically adjusts the top position of each item and scale value of head, and does not trigger requestLayout.<br>
+* Head has handled all kinds of extreme situations that have been deployed to ensure that head will not reveal only half of them.<br>
+* The fast throw motion of RecycleView is processed to ensure that the position of head can be normal when fling to head.<br>
 
 
 
 # 集成
-需要集成v4和v7两个库，以及这里的效果库
+You need to integrate the V4 and V7 libraries, and the effect libraries here
    
     implementation 'com.chw.android:widget:3.0.3'
     implementation 'com.android.support:support-v4:27.1.1'
@@ -25,7 +25,7 @@
     
  #    使用
  
- 使用起来十分简单，将RecycleView换成WeRecycleView即可，设置滑动模式
+It is very simple to use, change the RecycleView to WeRecycleView, and set the sliding mode.
       
      mRecycleView.setScrollMode(WeRecycleView.SCROLL_SCALE_HEAD);
      mRecycleView.setMaxScale(4f);
