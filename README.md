@@ -1,5 +1,5 @@
 # widget
-（[English document](README_EN.md)）<br>
+[English document](README_EN.md)<br>
 开发这个控件库是为了致力于提升android原生控件的一些性能及体验
 
 ![](pic.jpg 'pic')
