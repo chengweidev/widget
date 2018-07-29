@@ -4,7 +4,7 @@ The development of this control library is intended to enhance the performance a
 
 ![](pic.jpg 'pic')
 
-# 效果
+# Effect
 The overstretched effect of the top picture added is the overstretching effect of the picture imitated by IOS Appstore.
 
 ![image](https://github.com/chengweidev/widget/blob/master/f.gif ) 
@@ -16,14 +16,14 @@ The overstretched effect of the top picture added is the overstretching effect o
 
 
 
-# 集成
+# Integrate
 You need to integrate the V4 and V7 libraries, and the effect libraries here
    
     implementation 'com.chw.android:widget:3.0.3'
     implementation 'com.android.support:support-v4:27.1.1'
     implementation 'com.android.support:recyclerview-v7:27.1.1'
     
- #    使用
+ # Use
  
 It is very simple to use, change the RecycleView to WeRecycleView, and set the sliding mode.
       
