@@ -40,7 +40,7 @@ public class MainActivity extends Activity {
         mRecycleView.setLayoutManager(new LinearLayoutManager(this));
         mRecycleView.setScrollMode(WeRecycleView.SCROLL_SCALE_HEAD);
         mRecycleView.setMaxScale(4f);
-        mRecycleView.setSafeHeight(480);
+        //如果有titleBar，这就设titlebar的高度，没有就不需要设置
         mRecycleView.setCloseOffset(50 * mDensity);
         mRecycleView.setOnHeadExpandListener(new WeRecycleView.OnHeadExpandListener() {
             @Override

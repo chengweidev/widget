@@ -29,6 +29,4 @@
       
      mRecycleView.setScrollMode(WeRecycleView.SCROLL_SCALE_HEAD);
      mRecycleView.setMaxScale(4f);
-     mRecycleView.setSafeHeight(480);
-     mRecycleView.setCloseOffset(50 * mDensity);
      
