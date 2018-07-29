@@ -4,10 +4,9 @@
 ![](pic.jpg 'pic')
 
 # 效果
+这次添加的顶部图片过度拉伸效果是仿ios的appstore中的图片过度拉伸效果。
 
 ![image](https://github.com/chengweidev/widget/blob/master/f.gif ) 
-
-这次添加的顶部图片过度拉伸效果是仿ios的appstore中的图片过度拉伸效果。
 
 * 继承RecycleView，保留RecycleView原本的特性<br>
 * 根据RecycleView的滚动item时动态调整各item的top位置及head的scale值，不触发requestLayout。<br>
