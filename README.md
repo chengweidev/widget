@@ -29,6 +29,4 @@ It is very simple to use, change the RecycleView to WeRecycleView, and set the s
       
      mRecycleView.setScrollMode(WeRecycleView.SCROLL_SCALE_HEAD);
      mRecycleView.setMaxScale(4f);
-     mRecycleView.setSafeHeight(480);
-     mRecycleView.setCloseOffset(50 * mDensity);
      
